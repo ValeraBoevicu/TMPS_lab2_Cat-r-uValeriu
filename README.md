@@ -21,19 +21,20 @@ printDetails() {
   }
 }
 ```
-- Derived class for action movies
+export class ActionMovie extends Movie {
+    constructor(title, duration, director, year) {
+        super(title, duration, director, year);
+        this.type = "action";
+    }
+}
 ```
-xport class ActionMovie extends Movie {
-  constructor(title, duration, director, year) {
+- Here we have an example where I used the prototype pattern, for example I have 2 types of movies, such as action and comedy, and in order not to write another code for comedy I only indicated the type of movie.
 ```
-- Call the constructor of the parent class to set the values of the object properties
-```
-  super(title, duration, director, year);
-```
-- Add a new property to indicate the type of the movie
-```
- this.type = "action";
-  }
+export class ComedyMovie extends Movie {
+    constructor(title, duration, director, year) {
+        super(title, duration, director, year);
+        this.type = "comedy";
+    }
 }
 ```
 ### 2. Singleton pattern for managing the list of movies:
