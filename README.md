@@ -1,5 +1,5 @@
 # LAB2_TMPS
-## Taks:Build an app where use the pattern .
+## Taks:Build an functional where use the pattern .
 ## Theory about the patterns:
 ### * The prototype pattern is a creational design pattern in software development. It is used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects.
 ### * Singleton pattern restricts the instantiation of a class and ensures that only one instance of the class exists in the Java Virtual Machine. The singleton class must provide a global access point to get the instance of the class. Singleton pattern is used for logging, drivers objects, caching.
