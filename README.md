@@ -74,6 +74,51 @@ switch (type) {
     console.log('No type founded');
 }
 ```
+### The result after running the functional:
+### - I have three types of movies:
+```[
+  HorrorMovie {
+    title: 'horror',        
+    duration: 'KarmaHorror',
+    director: '3:35',       
+    year: 'Nenea Valera',   
+    type: 'horror'
+  },
+  ActionMovie {
+    title: 'action',        
+    duration: 'KarmaAction',
+    director: '3:15',
+    year: 'Nenea Andrei',
+    type: 'action'
+  },
+  ComedyMovie {
+    title: 'comedy',
+    duration: 'KarmaComedy',
+    director: '3:15',
+    year: 'Nenea Nicu',
+    type: 'comedy'
+  }
+]
+```
+- And after available movieng after deleting comedy movie:
+```
+[
+  HorrorMovie {
+    title: 'horror',
+    duration: 'KarmaHorror',
+    director: '3:35',
+    year: 'Nenea Valera',
+    type: 'horror'
+  },
+  ActionMovie {
+    title: 'action',
+    duration: 'KarmaAction',
+    director: '3:15',
+    year: 'Nenea Andrei',
+    type: 'action'
+  }
+]
+```
 
 
 
