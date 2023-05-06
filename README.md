@@ -100,7 +100,7 @@ switch (type) {
   }
 ]
 ```
-- And after available movieng after deleting comedy movie:
+- And after deleting comedy movie :
 ```
 [
   HorrorMovie {
